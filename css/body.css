@@ -1,0 +1,13 @@
+.foot {
+	width: 100%;
+	height: 100px;
+	float: left;
+	clear: both;
+	text-align: center;
+	background-color: rgba(41, 137, 181, 0.8);
+}
+
+.foot p {
+	line-height: 10px;
+	color: white;
+}

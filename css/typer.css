@@ -1,0 +1,36 @@
+.title1{
+    position:relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    --count:15;
+    animation: typing 1.5s steps(var(--count)) forwards;
+}
+.title1::after{
+	content: "";
+	width: 2px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: white;
+	animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+	0%,49%{
+		opacity: 0;
+	}
+	50%,100%{
+		opacity: 1;
+	}
+}
+
+@keyframes typing{
+	0%{
+		width: 0;
+	}
+	100%{
+		width:calc(var(--count)*65px) ;
+	}
+}

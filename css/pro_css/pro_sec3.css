@@ -1,0 +1,85 @@
+.sec3{
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100vh;
+}
+.join{
+	width: 1200px;
+	height: 600px;
+	box-shadow: 0 0 15px rgb(83, 103, 110);
+    background: rgba(71, 142, 175, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    overflow: hidden;
+    margin:100px auto;
+}
+.join .img{
+    width: 500px;
+    height: 100%;
+    background-image: url(../../img/VCG41200368608-001.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.3);
+    opacity: 0.8;
+    transition: all 0.5s ease 0s;
+}
+
+.join .img:hover{
+    transform: scale(1.1);
+}
+.join .imghid{
+    overflow: hidden;
+}
+.join .txt{
+	width: 700px;
+	margin: 50px;
+	
+}
+.meth{
+    width: 700px;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.meth .icon{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.4s ease 0s;
+}
+.meth .icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.meth .qq{
+    background-image: url(../../img/qq.png);
+    background-size: 25px;
+}
+.meth .vx{
+    background-image: url("../../img/vx.png");
+}
+.meth .bili{
+    background-image: url("../../img/bili.png");
+    background-color: rgb(245, 128, 147);
+}
+.icon ul{
+    display: none;
+    list-style: none;
+    margin-top: 30px;
+    width: 150px;
+    margin-left: -40px;
+    color: rgb(114, 182, 202);
+    font-size: 14px;
+}
+.icon:hover ul{
+    display: block;
+    position: absolute;
+}

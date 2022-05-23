@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+}
+.sec1{
+	width: 1500px;
+	height: 750px;
+	margin: 0 auto;
+}
+.label h1{
+	color: #00008B;
+	text-align: center;
+	font-size: 70px;
+}
+.card{
+	width: 400px;
+	height: 600px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background: rgb(41,137,181);
+	color: white;
+	float: left;
+	text-align: center;
+}
+.card .img{
+	width: 400px;
+	height:350px;
+	transition: all 0.5s ease 0s;
+}
+.card .imghid{
+	overflow: hidden;
+}
+.card .img:hover{
+	transform: scale(1.1);
+}
+#b1 .img{
+	background: url(../../img/soul.png) no-repeat center center;
+	background-size: cover;
+}
+#b2 .img{
+	background: url(../../img/tantan.png) no-repeat center center;
+	background-size: cover;
+}
+#b3 .img{
+	background: url(../../img/momo.png) no-repeat center center;
+	background-size: cover;
+}
+.card .txt{
+	width: 400px;
+	height: 200px;
+	margin-top: 50px;
+}

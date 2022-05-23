@@ -1,0 +1,105 @@
+.main3{
+	width:1500px;
+	height: 1100px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow-x: hidden;
+	float: left;
+}
+#select3{
+	display: none;
+}
+.card3{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	box-shadow: 0 0 50px 10px rgba(0,0,0,0.3);
+	transition: all 0.6s;
+	text-align: center;
+}
+.img3{
+	width: 400px;
+	height: 230px;
+	background:url(../../img/4.png) no-repeat center center;
+	background-size: cover;
+	transition: all 0.6s;
+}
+.title{
+	font-size: 30px;
+	color: rgb(88,88,88);
+	margin: 30px 0 30px 0;
+	transition: all 0.6s;
+	transition-delay: 0.2s;
+}
+.desc{
+	width: 340px;
+	margin-bottom: 20px;
+	padding: 0 30px;
+	line-height: 25px;
+	opacity: 1;
+	color: rgb(170,170,170);
+	text-align: left;
+}
+.content{
+	display: none;
+	height: 400px;
+	text-align: center;
+	padding: 0 20%;
+	line-height: 40px;
+	background-color: white;
+}
+.content p{
+	margin: 30px 0;
+	text-align: left;
+	display: table;
+	text-indent: 2em;
+}
+#select_label3{
+	display: block;
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	z-index: 999;
+}
+#select3:checked~.card3 #select_label3{
+	width: 1500px;
+	height: 1000px;
+}
+#select3:checked~.card3{
+	width: 1500px;
+	height: 1000px;
+}
+#select3:checked~.card3 .img3{
+	width: 1500px;
+	height: 650px;
+	overflow: hidden;
+}
+
+#select3:checked~.card3 .title{
+	transform: translateY(-400px);
+	color: white;
+	font-size: 70px;
+}
+
+#select3:checked~.card3 .desc{
+	display: none;
+	opacity: 0;
+}
+#select3:checked~.card3 .content{
+	display: block;
+	animation: content 2s ;
+	transform: translateY(-50px);
+}
+@keyframes content{
+	from{
+		opacity: 0;
+		transform: translateY(0);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(-50px);
+	}
+}

@@ -1,0 +1,53 @@
+.sec2{
+	width: 1500px;
+	height: 1500px;
+	margin: 0px auto;
+}
+.div{
+	width: 800px;
+	height: 1500px;
+	margin: 0 350px;
+}
+.div1{
+	width:800px;
+	height: 300px;
+	margin-bottom: 50px;
+	background:rgb(41,137,181) ;
+}
+.div1 .img{
+	width: 300px;
+	height: 300px;
+	transition: all 0.5s ease 0s;
+	float: left;
+	overflow: hidden;
+}
+.div1 .img:hover{
+	transform: scale(1.1);
+}
+#c1 .img{
+	background: url(../../img/2.png) no-repeat center center;
+	background-size: cover;
+}
+#c2 .img{
+	background: url(../../img/5.png) no-repeat center center;
+	background-size: cover;
+}
+#c3 .img{
+	background: url(../../img/VCG211346791477.png) no-repeat center center;
+	background-size: cover;
+}
+#c4 .img{
+	background: url(../../img/3.png) no-repeat center center;
+	background-size: cover;
+}
+.div1 .txt{
+	width: 400px;
+	height: auto;
+	float: left;
+	color: white;
+	margin: 50px;
+}
+.sec2 p{
+	text-indent: 2em;
+	line-height: 25px;
+}

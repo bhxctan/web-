@@ -1,0 +1,81 @@
+.sec2{
+	height: 2500px;
+	width: 1500px;
+	margin: 0 auto;
+}
+.ab{
+    width: 800px;
+    height: auto;
+    box-shadow: 0 0 15px rgb(83, 103, 110);
+    background: rgba(71, 142, 175, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    overflow: hidden;
+    margin-top: 150px;
+}
+.a1 .img{
+    background-image: url(../../img/2.png);
+    background-size: cover;
+}
+.a2 .img{
+    background-image: url(../../img/5.png);
+    background-size: cover;
+}
+.a3 .img{
+    background-image: url(../../img/3.png);
+    background-size: cover;
+}
+.a4 .img{
+    background-image: url(../../img/glory.png);
+    background-size: cover;
+}
+.ab p{
+    color: rgb(114, 182, 202);
+    line-height: 24px;
+}
+
+.ab .txt{
+    width: 400px;
+    margin: 50px;
+}
+#a1 h1{
+    text-align: right;
+}
+#a3 h1{
+	text-align: right;
+}
+.ab .img{
+    width: 300px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.3);
+    opacity: 0.8;
+    transition: all 0.5s ease 0s;
+}
+.ab .img:hover{
+    transform: scale(1.1);
+}
+.ab .imghid{
+    overflow: hidden;
+}
+.a1{
+    margin-left: 40%;
+}
+.a2{
+    margin-left: 10%;
+    width: 1000px;
+}
+.a3{
+    margin-left: 40%;
+}
+.a4{
+    margin-left: 10%;
+}
+a{
+	text-decoration: none;
+}
+.a2 .txt{
+	width:600px;
+}

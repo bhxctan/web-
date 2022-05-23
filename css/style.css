@@ -1,0 +1,13 @@
+* {
+	padding: 0;
+}
+
+p {
+	text-indent: 2em;
+	line-break: 1px;
+	line-height: 33px;
+}
+
+h1 {
+	color: #00008B;
+}

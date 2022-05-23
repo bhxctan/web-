@@ -1,0 +1,62 @@
+.wrap{
+	width: 1000px;
+	height: 2300px;
+	position:relative ;
+	top: 100px;
+	margin: 100px auto;
+}
+.wrap::after{
+	content: '';
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	width: 5px;
+	z-index: -999;
+	height: 2300px;
+	background: rgb(41,137,181);
+}
+.box{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.box:nth-child(even) .left,.box:nth-child(odd) .right{
+	background:rgb(41,137,181) ;
+}
+.box:nth-child(even) .left:hover,.box:nth-child(odd) .right:hover{
+	transform: scale(1.1);
+}
+.left,.right{
+	position: relative;
+	width: 40%;
+	text-align: center;
+	padding: 50px;
+	transition: all 0.5s ease 0s;
+}
+
+.box:nth-child(odd) .left,.box:nth-child(even) .right{
+	height: auto;
+	line-height: auto;
+	text-align: center;
+	overflow: hidden;
+}
+.center{
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center>span{
+	width: 120px;
+	border-radius: 15px;
+	text-align: center;
+	font: 900 24px '';
+	line-height: 50px;
+	background: white;
+}

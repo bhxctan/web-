@@ -1,0 +1,81 @@
+.sec1{
+	height: 100vh;
+	width: 1500px;
+	margin: 0 auto;
+}
+.pt{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 250px;
+    float: left;
+    margin: 150px 0px 0px 105px;
+    background: rgba(219, 235, 241,0.8);
+    box-shadow: 0 0 15px rgb(59, 73, 95);
+    border-radius: 15px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: all 0.5s ease 0s;
+}
+.pt:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.imghid{
+    overflow: hidden;
+}
+.part1 .img{
+    background-image: url(../../img/2.png);
+    background-size: cover;
+}
+.part2 .img{
+    background-image: url(../../img/5.png);
+    background-size: cover;
+}
+.part3 .img{
+    background-image: url(../../img/3.png);
+    background-size: cover;
+}
+.part4 .img{
+    background-image: url(../../img/glory.png);
+    background-size: cover;
+}
+
+.pt .img{
+    height: 190px;
+    width: 250px;
+    background-size: cover;
+    background-position: 0px -30px;
+    transition: all 0.5s ease 0s;
+    opacity: 0.8;
+}
+
+.pt .img:hover{
+    transform: scale(1.1);
+}
+
+.pt .txt{
+    height: 310px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.pt .txt h1{
+    text-align: center;
+    font-size: 3em;
+    color: #00008B;
+    height: 30px;
+    line-height: 30px;
+}
+
+.pt .txt p{
+    margin-top: -2px;
+    word-wrap: break-word;
+    line-height: 23px;
+    color: rgb(114, 182, 202);
+}

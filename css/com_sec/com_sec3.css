@@ -1,0 +1,52 @@
+.sec3{
+	width: 1500px;
+	height: 800px;
+	margin: 10px auto;
+}
+.card1{
+	width: 400px;
+	height: 600px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background: rgb(41,137,181);
+	color: white;
+	float: left;
+	text-align: center;
+}
+.card1 .img{
+	width: 400px;
+	height:300px;
+	transition: all 0.5s ease 0s;
+}
+.card1 .imghid{
+	overflow: hidden;
+}
+.card1 .img:hover{
+	transform: scale(1.1);
+}
+#d1 .img{
+	background: url(../../img/4.png) no-repeat center center;
+	background-size: cover;
+}
+#d2 .img{
+	background: url(../../img/6.png) no-repeat center center;
+	background-size: cover;
+}
+#d3 .img{
+	background: url(../../img/1.png) no-repeat center;
+	background-size: cover;
+}
+.card1 .txt{
+	width: 400px;
+	height: 250px;
+	margin-top: 50px;
+}
+.sec3 p{
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 25px;
+}
+.pclass{
+	text-indent: 2em;
+	text-align: left;
+}
